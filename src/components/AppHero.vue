@@ -2,7 +2,7 @@
 export default{
     data() {
         return {
-            mainTitle: "La mia prima app con Vite!"
+            subTitle: 'Hello World!'
 
         }
     }
@@ -11,9 +11,9 @@ export default{
 
 <template>
     <div>
-        <h1  class="main_title">
-            {{ mainTitle }}
-        </h1>
+        <h3>
+            {{ subTitle }}
+        </h3>
     </div>
 </template>
 
