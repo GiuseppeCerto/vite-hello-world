@@ -14,15 +14,14 @@
 
 <template>
 
-  <div class="jumbotron_style">
-    <AppTitle>
+  <AppTitle>
         
-    </AppTitle>
+  </AppTitle>
 
-    <AppHero>
+  <AppHero>
 
-    </AppHero>
-  </div>
+  </AppHero>
+
 
 </template>
 
