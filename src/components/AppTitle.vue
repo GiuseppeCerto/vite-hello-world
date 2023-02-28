@@ -20,8 +20,9 @@ export default{
 <style>
     .main_title{
         position: absolute;
-        top: 30%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
+        color: darkviolet;
     }
 </style>

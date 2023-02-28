@@ -2,7 +2,7 @@
 export default{
     data() {
         return {
-            subTitle: 'Hello World!'
+            imgJumbo: "../assets/logo.jpeg"
 
         }
     }
@@ -10,18 +10,17 @@ export default{
 </script>
 
 <template>
-    <div>
-        <h3>
-            {{ subTitle }}
-        </h3>
-    </div>
+
+
+    <img class="imgJumbo" src="../assets/logo.jpeg" alt="Logo" />
+
+
 </template>
 
 <style>
-    .main_title{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .imgJumbo{
+        width: 100%;
+        height: 100%;
     }
+
 </style>

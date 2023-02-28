@@ -1,28 +1,39 @@
 <script>
-  import AppTitle from './components/AppTitle.vue'
+  import AppTitle from './components/AppTitle.vue';
 
-  import AppHero from './components/AppHero.vue'
+  import AppHero from './components/AppHero.vue';
 
   export default {
 
     components: {
-      AppTitle
+      AppTitle,
+      AppHero,
     },
   }
 </script>
 
 <template>
 
-  <AppTitle>
-    
-  </AppTitle>
+  <div class="jumbotron_style">
+    <AppTitle>
+        
+    </AppTitle>
 
-  <AppHero>
+    <AppHero>
 
-  </AppHero>
+    </AppHero>
+  </div>
 
 </template>
 
 <style scoped>
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron_style{
+  background-color: dimgrey;
+}
 
 </style>
